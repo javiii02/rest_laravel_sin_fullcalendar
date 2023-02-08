@@ -1,0 +1,142 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  font-family: "Alegreya Sans SC", sans-serif;
+  color: black;
+  font-size: 2rem;
+}
+
+/***********************************/
+/************* SLIDER *************/
+/*********************************/
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+/*********************************************/
+/************* BARRA NAVEGACION *************/
+/*******************************************/
+.navbar-nav {
+  margin-right: 0 !important;
+  padding-right: 100px;
+}
+
+.navbar {
+  background-color: #a2a2a2;
+  color: white !important;
+  font-size: 1.8rem;
+}
+
+.nav-item a {
+  color: white !important;
+}
+
+.nav-item {
+  padding-left: 2px;
+}
+
+.navbar-brand {
+  color: white !important;
+  padding-left: 100px;
+  font-size: 2.2rem;
+}
+
+#navbar button {
+  color: white !important;
+}
+
+/***********************************/
+/************* FOOTER *************/
+/*********************************/
+#banner-container {
+  background-color: #7f7f7f;
+  color: white !important;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#banner-row img {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  padding-left: 30px;
+}
+
+#banner-row h3, p {
+  padding-left: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#banner-row a {
+  background-color: white !important;
+  color: black !important;
+  border: none;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#banner-col {
+  padding-left: 20px;
+}
+
+.mb-3 {
+  padding-top: 10px;
+}
+
+/* CARTA */
+#carta {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#carta h1 {
+  padding-bottom: 70px;
+}
+
+#carta img {
+  justify-content: top;
+}
+
+/*******************************************/
+/************* SOBRE NOSOTROS *************/
+/*****************************************/
+#about {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#about h1 {
+  padding-bottom: 70px;
+}
+
+#about-col ul {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+#about-col ul li {
+  padding-top: 15px;
+}
+
+/***************************************/
+/************* RESPONSIVE *************/
+/*************************************/
+@media only screen and (max-width: 987px) {
+  .navbar-brand {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #banner-row img {
+    padding-top: 20px;
+  }
+  .social-col {
+    width: 33%;
+  }
+}/*# sourceMappingURL=style_main.css.map */
