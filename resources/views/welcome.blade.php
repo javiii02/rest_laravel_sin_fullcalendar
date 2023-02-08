@@ -10,9 +10,22 @@
             box-shadow: 10px 10px 5px #888;
         }
 
-        #img_anim:active {
-            transform: translate(100px, 100px);
+        #img_anim:hover {
+            transform: translate(40px, 40px);
             opacity: 0.5;
+        }
+
+        #img_anim2 {
+            width: 200px;
+            height: 200px;
+            transition-property: transform;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            box-shadow: 10px 10px 5px #888;
+        }
+
+        #img_anim2:hover {
+            transform: scale(1.2);
         }
     </style>
     <!-- Foto Inicio Index -->
@@ -100,7 +113,7 @@
                     </div>
                 </div>
                 <div class="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0"><img
-                        class="mx-auto sm:max-w-sm lg:max-w-full" style="box-shadow: 10px 10px 5px #888;"
+                        class="mx-auto sm:max-w-sm lg:max-w-full" id="img_anim2"
                         src="{{ URL::asset('/images/img_ind.jpg') }}" alt="feature image"></div>
             </div>
     </section>
