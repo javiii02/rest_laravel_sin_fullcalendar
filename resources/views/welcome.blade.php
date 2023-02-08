@@ -1,4 +1,19 @@
 <x-guest-layout>
+
+
+    <style>
+        #img_anim {
+            transition-property: transform, opacity;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            opacity: 1;
+        }
+
+        #img_anim:active {
+            transform: translate(100px, 100px);
+            opacity: 0.5;
+        }
+    </style>
     <!-- Foto Inicio Index -->
     <div class="container max-w-lg px-4 py-32 mx-auto text-left bg-center bg-no-repeat bg-cover md:max-w-none md:text-center"
         style="background-image: url('https://images.pexels.com/photos/8112401/pexels-photo-8112401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')">
@@ -49,7 +64,7 @@
                     </div>
                 </div>
                 <div class="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0"><img
-                        class="mx-auto sm:max-w-sm lg:max-w-full" style="box-shadow: 10px 10px 5px #888;"
+                        class="mx-auto sm:max-w-sm lg:max-w-full" style="box-shadow: 10px 10px 5px #888;" id="img_anim"
                         src="{{ URL::asset('/images/carta.jpg') }}" alt="feature image"></div>
             </div>
         </div>
