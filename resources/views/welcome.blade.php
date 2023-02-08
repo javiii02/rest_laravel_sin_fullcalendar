@@ -7,6 +7,7 @@
             transition-duration: 1s;
             transition-timing-function: ease-in-out;
             opacity: 1;
+            box-shadow: 10px 10px 5px #888;
         }
 
         #img_anim:active {
@@ -64,7 +65,7 @@
                     </div>
                 </div>
                 <div class="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0"><img
-                        class="mx-auto sm:max-w-sm lg:max-w-full" style="box-shadow: 10px 10px 5px #888;" id="img_anim"
+                        class="mx-auto sm:max-w-sm lg:max-w-full" id="img_anim"
                         src="{{ URL::asset('/images/carta.jpg') }}" alt="feature image"></div>
             </div>
         </div>
