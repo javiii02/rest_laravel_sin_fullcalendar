@@ -23,7 +23,7 @@
         }
 
         #img_anim2:hover {
-            transform: scale(1.5);
+            transform: scale(1.3);
         }
     </style>
     <!-- Foto Inicio Index -->
