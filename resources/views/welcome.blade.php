@@ -16,8 +16,6 @@
         }
 
         #img_anim2 {
-            width: 200px;
-            height: 200px;
             transition-property: transform;
             transition-duration: 1s;
             transition-timing-function: ease-in-out;
